@@ -15,5 +15,7 @@ def LCM(x,y):
     return 0
 
 checkList = [[12,15],[13,17],[51,17],[2,6],[1024,24],[1024,2],[11,13]]
+'''
 for x in checkList:
     print(x,':',LCM(x[0],x[1]))
+'''
