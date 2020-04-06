@@ -1,9 +1,11 @@
-import GeneralCode.Sort.bubbleSort as B
-
 import random
 import os
 from datetime import datetime, timedelta
 import GeneralCode.Sort.orderChecker as OC
+
+##
+import GeneralCode.Sort.selectionSort as B
+##
 
 
 print('Running GeneralCode.Sort.list which has multiple lists')
