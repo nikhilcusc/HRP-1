@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import os
 import GeneralCode.Sort.orderChecker as OC
 ##
-import GeneralCode.Sort.selectionSort as B 
+import GeneralCode.Sort.countingSort1 as B 
 ##
 
 l1 =['3 2 1 4']
