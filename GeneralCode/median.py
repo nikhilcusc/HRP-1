@@ -21,8 +21,9 @@ def findMedian(a):
         a[minInd] = a[s]
         a[s] = temp 
         s+=1
-    print(a)
-    return a[int(n/2)]
+    if len(a)%2:
+        return a[int(len(a)/2)]
+    return (a[int(len(a)/2)] + a[int(len(a)/2)-1])/2
 '''
 # run insertion sort n/2 times
 # quicksort with center element?
