@@ -8,7 +8,6 @@ def BUmerge(arr,left,right,end,temparr):
         else:
             temparr[k]=arr[j]
             j+=1
-  
     return
 
 def Sort(arr):
