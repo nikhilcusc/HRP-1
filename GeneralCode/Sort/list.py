@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import os
 import GeneralCode.Sort.orderChecker as OC
 ##
-import GeneralCode.Sort.mergeSort1 as B 
+import GeneralCode.Sort.quickSortPL as B 
 ##
 
 l1 =['3 2 1 4']

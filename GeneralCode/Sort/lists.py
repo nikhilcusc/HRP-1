@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import GeneralCode.Sort.orderChecker as OC
 
 ##
-import GeneralCode.Sort.countingSort1 as B
+import GeneralCode.Sort.quickSortPH as B
 ##
 
 
