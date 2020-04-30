@@ -2,7 +2,10 @@
 ## This repo contains my solutions to Hacker Rank problems.
 
 ### NOTES:
-1. A dictionary maintains order of keys as they were input. So, if 4 came before 3 as a key in the input the dictonary would not sort it and put 3 before 4 in the keys. [Example](/UnNecCompliProblems/UNCP8.py)
+1. Dictionary
+    1. A dictionary maintains order of keys as they were input. So, if 4 came before 3 as a key in the input the dictonary would not sort it and put 3 before 4 in the keys. [Example](/UnNecCompliProblems/UNCP8.py)
+    1. Initialize dictionary with contiguous values:
+        > arrD = {i:0 for i in range(0,k)}
 1. Range will include the first argument and exclude the second argument. Example:
     >for _ in range(3,6):
     >   print(_)

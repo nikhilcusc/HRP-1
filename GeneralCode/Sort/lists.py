@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import GeneralCode.Sort.orderChecker as OC
 
 ##
-import GeneralCode.Sort.quickSortPH as B
+import GeneralCode.Sort.heapSort1 as B
 ##
 
 
@@ -26,4 +26,4 @@ for l in range(len(l1)):
     ReturnedList = B.Sort(nlist)
     ###
     timeAfter = datetime.now()
-    print('\n List number:',l,'\t Time taken: ',timeAfter-timeBefore,'\t Order Correct?', OC.orderChecker(ReturnedList),'\nOriginal List: ',l1[l],'\n Returned List:',ReturnedList,'\n')
+    print('\n List number:',l,'\t Time taken: ',timeAfter-timeBefore,'\t Ascending Order Correct?', OC.simpleOrderChecker(ReturnedList),'\t Exact Order Correct?', OC.exactOrderChecker(ReturnedList, nlist),'\nOriginal List: ',l1[l],'\n Returned List:',ReturnedList,'\n')
