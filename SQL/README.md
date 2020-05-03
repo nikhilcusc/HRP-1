@@ -27,3 +27,5 @@
     1. FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table.
     
      > SELECT * FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+1.  If you need to create non-equijoins, just stick to using the WHERE clause to define them. 

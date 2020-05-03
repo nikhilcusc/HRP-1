@@ -1,10 +1,11 @@
 import datetime
+import itertools
+from itertools import permutations
 x = datetime.datetime.now()
 print(x.strftime("%d-%b-%y\n\n"))
 
-#import ProbSol.pickingNumbers
+import ProbSol.magicSquare2
 #import GeneralCode.Sort.lists
-#import GeneralCode.Heap.buildHeap
+#import GeneralCode.permComb
 #import Regex.MasterMatchstr
-import UnNecCompliProblems.UNCP9
-
+#import UnNecCompliProblems.UNCP9

@@ -15,10 +15,11 @@
 
     Same is true for list indexing. Example:
     > l= [1,3,6,9,22] -> l[2:4] -> [6, 9]
-
+1. When solving problems dealing with 3 related numbers, check if problem is easy to solve looking at second or third number instead of first number. Examples: [finding triplets where the numbers are a factor of a common ratio r.](/ProbSol/countTriplets)
 ### TODO:
 - [ ] In place reversing of doubly linked list.
 - [ ] In place merging of sorted Linked list.
 - [ ] range update query for multiplication in O(1) time.
 
+1. To generate permutations and combinations include *import itertools*. 
 
