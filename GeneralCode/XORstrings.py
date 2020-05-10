@@ -1,4 +1,4 @@
-def strings_xor(s, t):
+def strings_xor(s, t): #strings should be equal length
     res = ""
     for i in range(len(s)):
         if s[i] == t[i]:

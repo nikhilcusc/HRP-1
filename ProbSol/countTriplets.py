@@ -21,8 +21,6 @@ def countTriplets(arr, r):
         print(v, r2 , r3)
     return count
 
-
-
 '''
 def countTriplets(arr ,r): # still slow
     if len(set(arr))==1:

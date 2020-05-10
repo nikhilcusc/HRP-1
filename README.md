@@ -6,6 +6,9 @@
     1. A dictionary maintains order of keys as they were input. So, if 4 came before 3 as a key in the input the dictonary would not sort it and put 3 before 4 in the keys. [Example](/UnNecCompliProblems/UNCP8.py)
     1. Initialize dictionary with contiguous values:
         > arrD = {i:0 for i in range(0,k)}
+
+1. The distinction between lists and tuples is important: lists are (should be) homogeneous, aka contain a sequence of elements of the same type (think filenames). Tuples are heterogeneous, aka the position of elements has meaning and they are of different types.
+
 1. Range will include the first argument and exclude the second argument. Example:
     >for _ in range(3,6):
     >   print(_)
@@ -23,3 +26,15 @@
 
 1. To generate permutations and combinations include *import itertools*. 
 
+1. Enumerate:
+    > for i, v in enumerate(l):
+    >...     print(i,v)
+    >... 
+    >0 4
+    >1 3
+    >2 5
+    >3 7
+    
+    1. Finding all occurences of a values in a list:
+    > occ = [i for i, v  in enumerate(arr) if v==val]
+    
