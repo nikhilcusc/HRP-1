@@ -38,3 +38,4 @@
     1. Finding all occurences of a values in a list:
     > occ = [i for i, v  in enumerate(arr) if v==val]
     
+1. Recursion in python is REALLY slow. Use Memoization where possible to solve this problem.

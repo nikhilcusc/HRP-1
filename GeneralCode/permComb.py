@@ -7,7 +7,7 @@ print(l)
 perm = permutations(l)
 for i in perm:
     print(i)
-'''
+
 print('\n Permutations with 3')
 perm2 = permutations(l,3)
 rows=[]
@@ -18,9 +18,17 @@ print('\n Permutations of rows : ')
 perm22 = permutations(rows,3)
 for i in perm22:
     print(list(i))
-'''
+
 print('\n Combinations with 3')
 comb = combinations(l,3)
 for i in comb:
     print(i)
 '''
+
+a = [3,5,7]
+b = [4,6,9]
+ab = []
+for e1 in a:
+    for e2 in b:
+        ab.append([e1,e2])
+print(ab)

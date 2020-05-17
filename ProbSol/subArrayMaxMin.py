@@ -4,13 +4,15 @@ You will be given a list of integers, arr, and a single integer k. You must crea
 
 def maxMin(k, arr): #O(nlogn) + O(1) space
     arr.sort()
-    minDiff=999999
-    for i in range(len(arr)-k):
-        subArr = arr[i:i+k]
-        if minDiff > (max(subArr) - min(subArr)):
-            minDiff = (max(subArr) - min(subArr))
+    minDiff=arr[k-1] - arr[0]
+    for i in range(len(arr)-k+1):
+        print(arr[i+k-1] , arr[i],'\t',arr[i+k-1] - arr[i] ,'\t minDiff:',minDiff)
+        subArrDiff = arr[i+k-1] - arr[i]
+        if minDiff > subArrDiff:
+            minDiff = subArrDiff
     return minDiff
 
+'''
 # def maxMin(k, arr): #O(nlogn) + O(n) space
 #     arr.sort()
 #     diffArr = []
