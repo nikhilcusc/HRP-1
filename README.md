@@ -23,6 +23,7 @@
 - [ ] In place reversing of doubly linked list.
 - [ ] In place merging of sorted Linked list.
 - [ ] range update query for multiplication in O(1) time.
+- [ ] frequency query problem in quicker time.
 
 1. To generate permutations and combinations include *import itertools*. 
 
