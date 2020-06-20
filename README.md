@@ -42,3 +42,5 @@
 1. Recursion in python is REALLY slow. Use Memoization where possible to solve this problem.
 
 1. While working with matrices, make sure not to edit, the reference matrix.
+
+1. You can directly compare strings in python!

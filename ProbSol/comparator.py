@@ -1,6 +1,7 @@
 '''
 https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
 '''
+## you can directly compare strings in python!
 class Player:
     def __init__(self, name, score):
         self.AllSubjList=[] 
